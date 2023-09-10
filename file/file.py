@@ -1,0 +1,8 @@
+f = open("abc.txt",'w')
+f.write("Ashutosh Bambam\n")
+f.write("Kanfodi\n")
+print(f.name)
+print(f.mode)
+print(f.readable())
+print(f.writable())
+f.close()
